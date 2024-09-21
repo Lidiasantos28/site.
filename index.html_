@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros Online</title>
+    <!-- Vincula o CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Cabeçalho e Navegação -->
+    <header>
+        <div class="logo">
+            <h1>Livros Online</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#categories">Categorias</a></li>
+                <li><a href="#popular">Mais Populares</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner de Boas-Vindas -->
+    <section id="home" class="hero">
+        <h2>Bem-vindo ao Livros Online</h2>
+        <p>Encontre seu próximo livro favorito!</p>
+        <a href="#categories" class="btn">Ver Livros</a>
+    </section>
+
+    <!-- Seção de Categorias -->
+    <section id="categories">
+        <h2>Categorias de Livros</h2>
+        <div class="category-container">
+            <div class="category">
+                <h3>Ficção Científica</h3>
+                <p>Descubra novos mundos e tecnologias futuristas.</p>
+            </div>
+            <div class="category">
+                <h3>Romance</h3>
+                <p>Histórias de amor e relações emocionantes.</p>
+            </div>
+            <div class="category">
+                <h3>Aventura</h3>
+                <p>Explore histórias cheias de ação e emoção.</p>
+            </div>
+            <div class="category">
+                <h3>Biografia</h3>
+                <p>Conheça a vida de pessoas inspiradoras.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Livros Populares -->
+    <section id="popular">
+        <h2>Livros Mais Populares</h2>
+        <div class="book-container">
+            <div class="book">
+                <h3>O Guia do Mochileiro das Galáxias</h3>
+                <p>Autor: Douglas Adams
